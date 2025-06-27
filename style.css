@@ -41,6 +41,7 @@
             
         }
 
+        
         .theme-toggle {
             position: fixed;
             top: 50%;
@@ -142,3 +143,123 @@
             margin-bottom: 30px;
             line-height: 1.8;
         }
+
+         .calendar-widget {
+            background: var(--bg-tertiary);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 20px 40px var(--card-shadow);
+            border: 1px solid var(--border-color);
+            backdrop-filter: blur(10px);
+            color: var(--text-primary)
+        }
+
+        .calendar-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+         .calendar-grid {
+            display: grid;
+            gap: 8px;
+            margin-bottom: 25px;
+        }
+
+          .calendar-day {
+            padding: 12px;
+            text-align: center;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            min-height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 500;
+            border: 1px solid ;
+        }
+
+         .calendar-day:hover:not(.fw-bold) {
+            background-color: var(--primary-color);
+            color: white;
+            transform: scale(1.05);
+            border-color: var(--primary-color);
+        }
+
+          .calendar-day.active {
+            background-color: var(--primary-color);
+            color: white;
+            font-weight: 600;
+            box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
+            border-color: var(--primary-color);
+        }
+
+        .calendar-day.fw-bold {
+            cursor: default;
+            color: var(--text-primary) !important;
+            font-size: 0.9rem;
+            background-color: var(--bg-secondary);
+        }
+
+          .custom-card {
+            background: var(--bg-tertiary);
+            border-radius: 20px;
+            padding: 40px 30px;
+            border: 1px solid var(--border-color);
+            transition: all 0.3s ease;
+            height: 100%;
+            box-shadow: 0 10px 30px var(--card-shadow);
+        }
+
+        .custom-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px var(--card-shadow);
+        }
+        
+  .services-section {
+            padding: 100px 0;
+            background-color: var(--bg-secondary);
+            color: var(--text-primary)
+       
+        }
+
+        .service-card {
+            background: var(--bg-tertiary);
+            border-radius: 20px;
+            padding: 40px 30px;
+            text-align: center;
+            border: 1px solid var(--border-color);
+            transition: all 0.3s ease;
+            height: 100%;
+            box-shadow: 0 10px 30px var(--card-shadow);
+            
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 25px 50px var(--card-shadow);
+            border-color: var(--primary-color);
+            
+        }
+
+        .service-icon {
+            width: 90px;
+            height: 90px;
+            background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 25px;
+            font-size: 2.2rem;
+            color: white;
+            box-shadow: 0 10px 25px rgba(79, 70, 229, 0.3);
+            
+        }
+
+
+       
