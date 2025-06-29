@@ -431,7 +431,7 @@
             border-top: 1px solid var(--border-color);
         }
 
-        /* Buttons */
+       
         .btn-primary {
             background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
             border: none;
@@ -464,7 +464,7 @@
             box-shadow: 0 8px 20px rgba(79, 70, 229, 0.3);
         }
 
-        /* Animations */
+        
         .fade-in {
             opacity: 0;
             transform: translateY(30px);
@@ -476,7 +476,7 @@
             transform: translateY(0);
         }
 
-        /* Alert Styles */
+        
         .alert {
             border-radius: 15px;
             border: none;
@@ -490,14 +490,14 @@
             border: 1px solid rgba(16, 185, 129, 0.2);
         }
 
-        /* Badge Styles */
+       
         .badge {
             border-radius: 20px;
             padding: 8px 15px;
             font-weight: 600;
         }
 
-        /* Progress Bar */
+       
         .progress {
             height: 8px;
             border-radius: 10px;
@@ -509,7 +509,7 @@
             background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
         }
 
-        /* Responsive */
+       
         @media (max-width: 768px) {
             .hero-title {
                 font-size: 2.5rem;
@@ -526,7 +526,7 @@
             }
         }
 
-        /* Scroll to top button */
+        
         .scroll-top {
             position: fixed;
             bottom: 20px;
