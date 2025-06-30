@@ -41,10 +41,11 @@
 
  }
 
+ 
 
  .theme-toggle {
      position: fixed;
-     top: 50%;
+     top: 3.75%;
      left: 20px;
      transform: translateY(-50%);
      z-index: 1050;
