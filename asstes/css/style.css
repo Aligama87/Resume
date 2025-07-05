@@ -64,7 +64,18 @@
      transform: translateY(-50%) scale(1.1);
      box-shadow: 0 6px 20px rgba(79, 70, 229, 0.4);
  }
-
+@media (max-width: 768px) {
+    .theme-toggle {
+        left: auto;
+        right: 350px; /* فاصله از سمت راست (کنار همبرگری) */
+        top: 5px;
+        transform: none;
+    }
+    
+    .navbar {
+        z-index: 1100;
+    }
+}
  .navbar {
      background-color: var(--bg-secondary) !important;
 
