@@ -75,11 +75,10 @@ img {
 @media (max-width: 860px) {
     .theme-toggle {
         left: auto;
-        right: 350px; /* فاصله از سمت راست (کنار همبرگری) */
+        right: 320px; /* فاصله از سمت راست (کنار همبرگری) */
         top: 5px;
         transform: none;
     }
-    
     
     .navbar {
         z-index: 1100;
